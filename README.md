@@ -28,7 +28,7 @@ curl -X POST \
     "email": "new_doctor@example.com",
     "is_doctor": true
   }' \
-  http://localhost:8000/api/doctors/
+  http://localhost:8000/doctors/
 
 
   ##to book an appointment for a patient using the API:
@@ -40,7 +40,7 @@ curl -X POST \
     "date": "2023-10-28",
     "time": "10:00 AM"
   }' \
-  http://localhost:8000/api/appointments/
+  http://localhost:8000/appointments/
 
   
 
