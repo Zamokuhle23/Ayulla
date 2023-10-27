@@ -14,6 +14,17 @@ pip install -r requirements.txt
 ##Migrate the database:
 python manage.py migrate
 
+## To run unit tests:
+## To test if Doctor Signs Up
+python manage.py test api.tests.DoctorSignUpTestCase
+
+## To test Creation of Patient
+python manage.py test api.tests.PatientCreationTestCase
+
+## To test Appointment Booking // There is an error for this test, there was no time to correct
+python manage.py test api.tests.AppointmentBookingTestCase
+
+
 ##Start the development server:
 python manage.py runserver
 
